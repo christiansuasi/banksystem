@@ -1,0 +1,52 @@
+SERVER SIDE
+./server3 201201
+-------------
+Account Name: alec
+Account Balance: $0.00
+-------------
+PRINTING ACCOUNTS
+TIME ELAPSED: 20 SECONDS
+REFRESHING IN 20 SECONDS
+-------------
+Account Name: alec
+Account Balance: $0.00
+-------------
+PRINTING ACCOUNTS
+TIME ELAPSED: 40 SECONDS
+REFRESHING IN 20 SECONDS
+-------------
+Account Name: alec
+Account Balance: $85.00
+-------------
+-------------
+Account Name: alec
+Account Balance: $85.00
+-------------
+-------------
+Account Name: chris
+Account Balance: $0.00
+-------------
+PRINTING ACCOUNTS
+TIME ELAPSED: 60 SECONDS
+REFRESHING IN 20 SECONDS
+-------------
+Account Name: alec
+Account Balance: $85.00
+-------------
+-------------
+Account Name: chris
+Account Balance: $0.00
+-------------
+PRINTING ACCOUNTS
+TIME ELAPSED: 80 SECONDS
+REFRESHING IN 20 SECONDS
+-------------
+Account Name: alec
+Account Balance: $85.00
+-------------
+-------------
+Account Name: chris
+Account Balance: $0.00
+-------------
+Thank you for using Lehman Brothers Bank, have a nice day.
+DICONNECTED FROM CLIENT

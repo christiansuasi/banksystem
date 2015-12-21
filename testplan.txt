@@ -1,0 +1,18 @@
+open alec
+credit 100
+start alec
+credit 100
+balance
+debit 15
+balance
+open chris
+finish
+open chris
+start chris
+credit -100
+debit 100
+balance
+finish
+balance
+finish
+exit

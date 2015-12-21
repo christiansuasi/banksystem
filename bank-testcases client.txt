@@ -1,0 +1,121 @@
+
+Here is the testplan for the client side, 
+
+We commented each part to show what should happen and what does happen. Pay attention when the output is INVALID INPUT because that should happen depending on the input that was put in, We will explain it in the comment next to the output.
+
+
+CLIENT SIDE
+./client2 localhost 201201
+CONNECTED TO SERVER
+Welcome to the Lehman Brothers Bank
+What would you like to do?
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+open alec   
+Account Created!
+
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+credit 100
+INVALID INPUT //correct output because you can only credit within start session
+What would you like to do?
+
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+start alec
+Session Started! //correct output
+
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+credit 100
+Account Credited! //correct
+
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+balance
+Your Balance is: $100.00
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+debit 15
+Account Debited! //correct
+
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+balance
+Your Balance is: $85.00
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+open chris
+INVALID INPUT! //correct because a session is in progress, can’t open an account when an account started a session
+
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+finish
+Session is finished
+
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+open chris
+Account Created!
+
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+start chris
+Session Started!
+
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+credit -100
+Invalid Amount!//correct because you can’t credit a negative amount
+
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+debit 100
+Invalid Amount! //correct because you can’t debit what you don’t have 
+
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+balance
+Your Balance is: $0.00 //correct because nothing was credited
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+finish
+Session is finished
+
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+balance
+INVALID INPUT //correct because it doesn’t know what balance to get, it’s not in session
+What would you like to do?
+
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+finish
+INVALID INPUT //correct because there is no session that is in progress
+What would you like to do?
+
+Ready for input in 2...
+Ready for input in 1...
+Ready for input!
+exit
+
+Thank you for using Lehman Brothers Bank
+END OF CLIENT PROCESS
+DISCONNECTED FROM SERVER
